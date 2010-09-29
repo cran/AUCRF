@@ -1,0 +1,5 @@
+AUCRF								Variable Selection with Random Forest and the Area Under the Curve
+plot.AUCRF          Plot an AUCRF object
+summary.AUCRF       Summary method for a AUCRF object
+AUCRFcv             AUCRF Cross-Validation process
+OptimalSet					Returns optimal set of variables from an AUCRF object

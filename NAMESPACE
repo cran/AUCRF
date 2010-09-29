@@ -1,0 +1,10 @@
+export("AUCRF", 
+       "AUCRFcv",
+       "OptimalSet")
+       
+importFrom(randomForest, randomForest, importance)
+
+S3method(print, AUCRF)
+S3method(plot, AUCRF)
+S3method(summary, AUCRF)
+S3method(plot, AUCRF)       
